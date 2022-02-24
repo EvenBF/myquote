@@ -1,11 +1,9 @@
 package main
 
 import (
-	"rsc.io/quote"
+	"fmt"
+	"github.com/EvenBF/myquote/pakke"
 )
-func main(){
-    quote.Glass()
-    quote.Go()
-    quote.Hello()
-    quote.Opt()
+func main() {
+    fmt.Println(del2pakke.TestQuote())
 }
